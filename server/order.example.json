@@ -1,0 +1,19 @@
+{
+  "driverId": "replace-with-id-from-drivers-command",
+  "reference": "ESK-2001",
+  "customer": "Test recipient",
+  "address": "12 4th Avenue",
+  "suburb": "Parkhurst, Johannesburg",
+  "phone": "",
+  "email": "",
+  "latitude": -26.1406,
+  "longitude": 28.0177,
+  "packages": 3,
+  "windowStart": "2026-10-27T08:00:00+02:00",
+  "windowEnd": "2026-10-27T10:00:00+02:00",
+  "instructions": "Ring the bell at the main entrance.",
+  "dispatchNotes": "Keep chilled items together.",
+  "store": "Eskort dispatch",
+  "storePhone": "",
+  "storeEmail": ""
+}

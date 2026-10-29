@@ -1,0 +1,52 @@
+# Dependencies and build output
+node_modules/
+dist/
+mobile/dist-web/
+.expo/
+.tools/
+mobile/android/
+mobile/ios/
+deliverables/
+.shots/
+
+# Local configuration and signing
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+credentials.json
+google-services.json
+GoogleService-Info.plist
+server/data/
+
+# Compiled files and logs
+*.class
+*.py[cod]
+__pycache__/
+*.log
+*.jar
+*.tsbuildinfo
+target/
+TEST*.xml
+
+# Editor and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Applications and large media
+*.app
+*.exe
+*.war
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv

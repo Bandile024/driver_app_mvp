@@ -1,0 +1,68 @@
+Eskort Delivery Driver Mobile App – Specification Document
+
+Mobile App (React Native) for delivery drivers to manage, track, and complete delivery tasks. This app will work offline-first, support push notifications, GPS tracking, and real-time updates when online.
+ 
+Core Functional Requirements
+Target Users
+•	Delivery Drivers (Main users)
+•	Dispatch/Admin (Backend system)
+
+1. Authentication
+•	Login via email/phone & password
+•	Optional: OTP-based login
+•	JWT-based session management
+•	Persistent login (localStorage/cache)
+ 
+2. Dashboard / Today's Deliveries
+•	List of assigned deliveries with:
+o	Customer name & address
+o	ETA
+o	Package count
+o	Delivery status (Pending, In Progress, Delivered, Failed)
+•	"Start Shift" / "End Shift" toggle
+•	Live location tracking while on shift
+ 
+3. Delivery Details Page
+•	Full delivery info:
+o	Customer name, phone, special instructions
+o	Address + embedded map
+o	Delivery time window
+o	Notes from dispatch
+•	Action buttons:
+o	Start Navigation (launch Google Maps/Waze)
+o	Mark as Delivered
+o	Mark as Failed (with reason)
+o	Contact Customer (tap to call)
+ 
+4. Proof of Delivery
+•	Photo capture (camera support)
+•	Delivery notes (text)
+•	Auto geo-stamp + timestamp
+ 
+5. Offline Support
+•	Local cache of assigned deliveries
+•	Complete deliveries offline
+•	Sync to server when back online
+•	Background sync and service workers
+ 
+6. Push Notifications
+•	New delivery assigned
+•	Updated instructions
+•	Delivery escalations
+ 
+7. Map Integration
+•	Live GPS tracking for drivers
+ 
+8. Delivery History
+•	Past deliveries with status, proof, and timestamp
+•	Filters: date, status
+ 
+9. Driver Profile
+•	Driver details
+•	View shift stats: deliveries today, time on road, on-time %
+•	Settings: Notifications, Dark mode
+ 
+10. Error & Support Handling
+•	Report issue with delivery (e.g., customer not home, damaged item)
+•	Contact support / admin chat or callback
+
